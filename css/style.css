@@ -1876,6 +1876,29 @@ SECTION MARGIN
 
 
 /*start fade animation for product details popup*/
+.testimonial-popup-wrapper {
+    padding: 30px;
+}
+.testimonial-popup-title {
+    font-size: 20px;
+    line-height: 22px;
+    color: #383838;
+}
+.testimonial-popup-item {
+    position: relative;
+    padding-left: 20px;
+}
+.testimonial-popup-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #398860;
+}
+
 .product-details-content-wrap h3.product-title{
     font-size: 20px;
     line-height: 22px;
