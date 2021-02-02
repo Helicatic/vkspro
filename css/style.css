@@ -1700,6 +1700,7 @@ SECTION MARGIN
 
 .feature-image img{
     margin: 0 auto;
+    height: auto;
 }
 
 
